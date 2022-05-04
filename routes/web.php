@@ -584,7 +584,7 @@ Route::get('/day1advabs', function(){
   // return View('day1advabs',["image"=>$datab['image'],"text"=>$datab['text']]);
   return View('day1advabs');
 });
-
+// wegan
 
 Route::get('/day2advabs', function(){
   return View('dday2advabs');
