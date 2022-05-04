@@ -1,0 +1,1280 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .homepage{
+        width: 100%;
+       height: 100%; 
+       position: relative;
+       top: 0;
+       left: 0;
+       right: 0;
+       bottom: 0;
+    }
+    .homepage video{ 
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    } 
+    .homepage .navcontant a{
+      font-size: 20px;
+      color: white;
+      cursor: pointer;
+    }
+    .homepage .navbarlogo{
+        font-size: 55px;
+        color: rgba(128, 128, 128, 0.534);
+    }
+    .homepage .navbar button{
+        background-color: rgba(255, 249, 249, 0.37);
+        width: 5%;
+        height: 10%;
+    }
+    .addpage h1{
+        color: rgba(36, 36, 163, 0.459);
+        font-size: 65px;
+        position: absolute;
+        top: 60%;
+        left: 25%;
+    }
+    /* end page */
+    /*about us */ 
+    .aboutus{
+     width: 100%;
+     height: 60%;
+     background-image: url("../img/Join-US-BG-1.jpg");
+     position: relative;
+     top: 0;
+     bottom: 0;
+     }
+    .contant .firstvideo iframe{
+      width: 50%;
+      height: 60%;
+      position: absolute;
+      top: 12%;
+      left: 46%;
+     }
+    .paragraph1{
+     color: white;
+     margin-right: 50px;
+     width: 40%;
+     height: 30%;
+     position: absolute;
+     top: 23%;
+     left: 2%;
+     }
+    .paragraph1  h2{
+     color: rgba(44, 44, 182, 0.945);
+     font-size: 33px;
+    }
+    .paragraph1  p{
+     color: white;
+     font-size: 20px;
+    }
+    .item1{
+      width:23%;
+      position: absolute;
+      top: 85%;
+      left: 15%;
+     }
+    .item1 img{
+     width: 100%;
+     border-radius:  3px;
+     }
+    .item2{
+     width:23%;
+     position: absolute;
+     top: 85%;
+     left: 40%;
+     }
+    .item2 img{
+     width: 100%;
+     border-radius:  3px;
+     }
+    .item3{
+     width:23%;
+     position: absolute;
+     top: 85%;
+     left: 65%;
+     }
+    .item3 img{
+     width: 100%;
+     border-radius:  3px;
+     }
+    .inner{
+     text-align: center;
+     }
+    .img-box {
+     position: relative;
+     overflow: hidden;
+     transform: skew(-15deg);
+     }
+    .layer{
+      background-color: rgba(45, 45, 158, 0.342);
+      position:absolute;
+      top: 0px;
+      bottom: 0px;
+      right: 0px;
+      left: 0;
+      transform: translatex(353px);
+      transition-property: all;
+      transition-duration:.3s;
+      opacity: 0;
+      overflow: hidden;
+     }
+    .img-box:hover .layer{
+    transform: translatex(0px);
+    opacity: 1;
+    cursor: pointer;
+    color: rgba(0, 50, 70, 0.849);
+    }
+    .layer .notes{
+      position: absolute;
+      top: 22%;
+      left: 5%;
+    }
+    .layer .notes h2{
+      font-size: 20px;
+      color: white;
+    }
+    .layer .notes p{
+     font-size: 12px;
+     color: white;
+     }
+    /* end seccion */
+    /* part3 */
+    .ourclass{
+      background-image: url("../img/OUR-CLASSES-BG.jpg");
+      position: relative;
+      top: 15%;
+     }
+    .imgbox2{
+      width: 100%;
+      height:  90%;
+     }  
+    .ourclass h2{
+      font-size: 50px;
+      color: #015a5385;
+      text-align: center;
+     }
+    .ourclass p{
+      color: gray;
+      font-size: 17px;
+      width: 85%;
+      text-align: center;
+      position: absolute;
+      left: 10%;
+     }
+    .ourclass .box1 img{
+     width: 25%;
+     height: 60%;
+     position: absolute;
+     top: 21.5%;
+     left: 11.6%;
+     transition:transform 0.5s 0.5s ;
+    }
+    .box1:hover img{
+     transform: scale(1.2,1.2);
+     cursor: pointer;
+    }
+    .ourclass .box1 h3{
+      position: absolute;
+      top: 88.5%;
+      left: 18%;
+      font-size: 18px;
+    }
+    .ourclass .box2 img{
+     width: 25%;
+     height: 60%;
+     position: absolute;
+     top: 21.5%;
+     left: 40.5%;
+     transition:transform 0.5s 0.5s ;
+    }
+    .box2:hover img{
+     transform: scale(1.2,1.2);
+     cursor: pointer;
+    }
+    .ourclass .box2 h3{
+     position: absolute;
+     top: 89%;
+     left: 49%;
+     font-size: 18px;
+    }
+    .ourclass .box3 img{
+      width: 25%;
+      height: 60%;
+      position: absolute;
+      top: 21.5%;
+      left: 69%;
+      transition:transform 0.5s 0.5s ;
+    }
+    .box3:hover img{
+     transform: scale(1.2,1.2);
+     cursor: pointer;
+    }
+    .ourclass .box3 h3{
+      font-size: 18px;
+      position: absolute;
+      top: 89%;
+      left: 72.5%;
+    }
+    /* end part */     
+    /* part4*/
+    .classoverall{
+        background-image: url("../img/MISSION-00.jpg");
+        width: 100%;
+        height: 100%;
+        background-position: center center;
+        position: relative;
+        top: 20%;
+        bottom: 0;
+    }
+    .addpg5 h2{
+        color: white;
+        width: 100%;
+        height: 10%;
+        text-align: center;
+        font-size: 40px;
+    }
+    .addpg5 hr{
+        width: 6%;
+        height: 1%;
+        transform: skew(-15deg);
+        background-color: darkblue;
+        position: absolute;
+        left: 46%;
+        top: 6%;
+    }
+    .imgoverall img{
+        width: 28%;
+        height: 80%;
+        position: absolute;
+        left: 57%;
+        top: 16%;
+    }
+   .imgcard1 img{
+     width: 7%;
+     height: 8%;
+     position: absolute;
+     left: 1%;
+     top: 25%;
+   }
+   .captioncard1 h2{
+    font-size: 28px;
+    color: rgba(44, 44, 182, 0.945);
+    position: absolute;
+    left: 10%;
+    top: 22%;
+   }
+   .captioncard1 p{
+    font-size: 15px;
+    width: 40%;
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 28%;
+   }
+   .imgcard2 img{
+    width: 7%;
+    height: 8%;
+    position: absolute;
+     left: 1%;
+     top: 52%;
+  }
+  .captioncard2 h2{
+    font-size: 28px;
+    color: rgba(44, 44, 182, 0.945);
+    position: absolute;
+    left: 10%;
+    top: 50%;
+   }
+   .captioncard2 p{
+    font-size: 15px;
+    width: 40%;
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 56%;
+   }
+  .imgcard3 img{
+    width: 7%;
+    height: 8%;
+    position: absolute;
+     left: 1%;
+     top: 78%;
+  }
+  .captioncard3 h2{
+    font-size: 28px;
+    color: rgba(44, 44, 182, 0.945);
+    position: absolute;
+    left: 10%;
+    top:76% ;
+   }
+   .captioncard3 p{
+    font-size: 15px;
+    width: 40%;
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 82%;
+   }
+   /* end page */
+  
+   /* part5 */
+   .ourteam{
+       width: 95%;
+       height: 45%;
+       position: relative;
+       top: 25%;
+       bottom: 0;
+   }
+   .addpage5 h2{
+       font-size: 50px;
+       color: rgba(44, 44, 182, 0.945);
+       position: absolute;
+       left: 10%;
+       top: 35%;
+   }
+   .addpage5 hr{
+    width: 6%;
+    height: 1%;
+    background-color: black;
+    transform: skew(15deg);
+    position: absolute;
+    left: 19%;
+    top:52%;
+   }
+   .cappage5 {
+       width: 40%;
+       font-size: 20px;
+       position: absolute;
+       top:18% ;
+       left: 50%;
+   }
+   .addpage5 p{
+       color: black;
+   }
+   /* end page5 */
+   /* page6 */
+   .timetable{
+      background-image: url("../img/schedule-bg.png");
+       width: 100%;
+       height: 65%;
+       position: relative;
+       top: 25%;
+   }
+   .timetable video{ 
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+   }
+   .timetable table{
+       width: 70%;
+       height: 50%;
+       font-size: 20px;
+       text-align: center;
+       position: absolute;
+       top: 30%;
+       left: 15%;
+   }
+   .timetable h2{
+       font-size: 49px;
+       color: white;
+       position:absolute;
+       top: 5%;
+       left: 32%;   
+   }
+   .timetable hr{
+       width: 10%;
+       height: 1%;
+       transform: skew(-20deg);
+       background-color: blue;
+       position: absolute;
+       top:16% ;
+       left:43%;
+   }
+   /* endpart */
+
+}
+/* Large devices (laptops/desktops, 1024px and up) */ 
+@media only screen and (min-width: 1024px) {
+    /* part1 */
+    .homepage{
+            width: 100%;
+           height: 100%; 
+           position: relative;
+           top: 0;
+           left: 0;
+           right: 0;
+           bottom: 0;
+    }
+    .homepage video{ 
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+    } 
+    .homepage .navcontant{
+            justify-content: right;
+            font-size: 23px;
+            color: white;
+            cursor: pointer;
+    }
+    .homepage nav a{
+            color: white;
+    }
+    .homepage .navbarlogo{
+            font-size: 45px;
+            color: rgba(128, 128, 128, 0.26);
+    }
+    .homepage .navbar button{
+            background-color: rgba(90, 91, 145, 0.37);
+    }
+    .addpage h1{
+            color: rgba(36, 36, 163, 0.459);
+            font-size: 60px;
+            position: absolute;
+            top: 57%;
+            left: 30%;
+    }
+    /* end part1 */
+    /*about us */
+    .aboutus{
+            width: 100%;
+            height: 65%;
+            background-image: url("../img/Join-US-BG-1.jpg");
+            position: relative;
+            top: 0;
+            bottom: 0;
+     }
+    .paragraph1{
+            color: white;
+              margin-right: 50px;
+              font-family: 'Poppins', sans-serif;
+              font-size: 20px;
+              width: 40%;
+              height: 30%;
+              position: absolute;
+              top: 23%;
+              left: 2%;
+    }
+    .paragraph1  h2{
+            color: rgba(44, 44, 182, 0.945);
+              font-size: 33px;
+    }
+    .paragraph1  p{
+              color: white;
+              font-size: 20px;
+    }
+    .contant .firstvideo iframe{
+         width: 50%;
+         height: 60%;
+         position: absolute;
+         top: 12%;
+         left: 46%;
+    }
+    .item1{
+            width:23%;
+            position: absolute;
+            top: 85%;
+            left: 15%;
+    }
+    .item1 img{
+            width: 100%;
+            border-radius:  3px;
+     }
+    .item2{
+            width:23%;
+            position: absolute;
+            top: 85%;
+          left: 40%;
+     }
+    .item2 img{
+            width: 100%;
+            border-radius:  3px;
+     }
+    .item3{
+            width:23%;
+            position: absolute;
+            top: 85%;
+            left: 65%;
+    }
+    .item3 img{
+            width: 100%;
+            border-radius:  3px;
+    }
+    .inner{
+            text-align: center;
+    }
+    .img-box {
+            position: relative;
+            overflow: hidden;
+            transform: skew(-15deg);
+    }
+    .layer{
+            background-color: rgba(45, 45, 158, 0.342);
+            position:absolute;
+              top: 0px;
+              bottom: 0px;
+              right: 0px;
+              left: 0;
+              transform: translatex(353px);
+              transition-property: all;
+              transition-duration:.3s;
+              opacity: 0;
+              overflow: hidden;
+    }
+    .img-box:hover .layer{
+            transform: translatex(0px);
+            opacity: 1;
+            cursor: pointer;
+            color: rgba(0, 50, 70, 0.849);
+    }
+    .layer .notes{
+            position: absolute;
+            top: 22%;
+           left: 5%;
+    }
+    .layer .notes h2{
+            font-size: 20px;
+            color: white;
+        }
+    .layer .notes p{
+            font-size: 15px;
+            color: white;
+    }
+     /* end seccion */
+     /* part3 */
+    .ourclass{
+         background-image: url("../img/OUR-CLASSES-BG.jpg");
+         position: relative;
+         top: 25%;
+    }
+    .imgbox2{
+         width: 100%;
+         height:  90%;
+    }  
+    .ourclass h2{
+         font-size: 45px;
+         color: #015a5385;
+         text-align: center;
+    }
+    .ourclass p{
+         font-size: 17px;
+         color: gray;
+         width: 55%;
+         text-align: center;
+         position: absolute;
+         left: 25%;
+    }
+    .ourclass .box1 img{
+              width: 25%;
+              height: 60%;
+              position: absolute;
+              top: 25%;
+              left: 11.6%;
+              transition:transform 0.5s 0.5s ;
+    }
+    .box1:hover img{
+            transform: scale(1.2,1.2);
+            cursor: pointer;
+    }
+    .ourclass .box1 h3{
+            position: absolute;
+            top: 92%;
+            left: 20%;
+            font-size: 20px;
+    }
+    .ourclass .box2 img{
+            width: 25%;
+            height: 60%;
+            position: absolute;
+            top: 25%;
+            left: 40.5%;
+            transition:transform 0.5s 0.5s ;
+    }
+    .box2:hover img{
+            transform: scale(1.2,1.2);
+            cursor: pointer;
+    }
+    .ourclass .box2 h3{
+            position: absolute;
+            top: 92%;
+            left: 51%;
+            font-size: 20px;
+    }
+    .ourclass .box3 img{
+            width: 25%;
+            height: 60%;
+            position: absolute;
+            top: 25%;
+            left: 69%;
+            transition:transform 0.5s 0.5s ;
+    }
+    .box3:hover img{
+            transform: scale(1.2,1.2);
+            cursor: pointer;
+    }
+    .ourclass .box3 h3{
+            font-size: 20px;
+            position: absolute;
+            top: 92%;
+            left: 74.5%;
+    }
+     /* end part */
+     /* part4*/
+    .classoverall{
+        background-image: url("../img/MISSION-00.jpg");
+        width: 100%;
+        height: 100%;
+        background-position: center center;
+        position: relative;
+        top: 35%;
+        bottom: 0;
+    }
+    .addpg5 h2{
+        color: white;
+        width: 100%;
+        height: 10%;
+        text-align: center;
+        font-size: 40px;
+    }
+    .addpg5 hr{
+        width: 6%;
+        height: 1%;
+        transform: skew(-15deg);
+        background-color: darkblue;
+        position: absolute;
+        left: 47%;
+        top: 7%;
+    }
+    .imgoverall img{
+        width: 28%;
+        height: 80%;
+        position: absolute;
+        left: 57%;
+        top: 16%;
+    }
+   .imgcard1 img{
+     width: 5%;
+     height: 8%;
+     position: absolute;
+     left: 2%;
+     top: 25%;
+   }
+   .captioncard1 h2{
+    font-size: 28px;
+    color: rgba(44, 44, 182, 0.945);
+    position: absolute;
+    left: 9%;
+    top: 22%;
+   }
+   .captioncard1 p{
+    font-size: 15px;
+    width: 40%;
+    color: white;
+    position: absolute;
+    left: 9%;
+    top: 28%;
+   }
+   .imgcard2 img{
+    width: 5%;
+    height: 8%;
+    position: absolute;
+     left: 2%;
+     top: 52%;
+  }
+  .captioncard2 h2{
+    font-size: 25px;
+    color: rgba(44, 44, 182, 0.945);
+    position: absolute;
+    left: 9%;
+    top: 50%;
+   }
+   .captioncard2 p{
+    font-size: 15px;
+    width: 40%;
+    color: white;
+    position: absolute;
+    left: 9%;
+    top: 56%;
+   }
+  .imgcard3 img{
+    width: 5%;
+    height: 8%;
+    position: absolute;
+     left: 2%;
+     top: 78%;
+  }
+  .captioncard3 h2{
+    font-size: 25px;
+    color: rgba(44, 44, 182, 0.945);
+    position: absolute;
+    left: 9%;
+    top:76% ;
+   }
+   .captioncard3 p{
+    font-size: 15px;
+    width: 40%;
+    color: white;
+    position: absolute;
+    left: 9%;
+    top: 82%;
+   }
+   /* end page */
+  
+   /* part5 */
+   .ourteam{
+       width: 95%;
+       height: 45%;
+       position: relative;
+       top: 52.5%;
+       bottom: 0;
+   }
+   .addpage5 h2{
+       font-size: 50px;
+       color: rgba(44, 44, 182, 0.945);
+       position: absolute;
+       left: 10%;
+       top: 30%;
+   }
+   .addpage5 hr{
+    width: 6%;
+    height: 1%;
+    background-color: black;
+    transform: skew(15deg);
+    position: absolute;
+    left: 17%;
+    top:47%;
+   }
+   .cappage5 {
+       width: 40%;
+       font-size: 17px;
+       position: absolute;
+       top:20% ;
+       left: 50%;
+   }
+   .addpage5 p{
+       color: black;
+   }
+   /* end page5 */
+   /* page6 */
+   .timetable{
+      background-image: url("../img/schedule-bg.png");
+       width: 100%;
+       height: 65%;
+       position: relative;
+       top: 50%;
+   }
+   .timetable video{ 
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+   }
+   .timetable table{
+       width: 55%;
+       height: 60%;
+       font-size: 15px;
+       text-align: center;
+       position: absolute;
+       top: 30%;
+       left: 25%;
+   }
+   .timetable h2{
+       font-size: 55px;
+       color: white;
+       position:absolute;
+       top: 5%;
+       left: 30%;
+       
+   }
+   .timetable hr{
+       width: 10%;
+       height: 1%;
+       transform: skew(-20deg);
+       background-color: blue;
+       position: absolute;
+       top:18% ;
+       left:45%;
+   }
+   /* endpart */
+}
+/*  large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (min-width: 1440px) {
+    .homepage{
+        width: 100%;
+       height: 100%; 
+       position: relative;
+       top: 0;
+       left: 0;
+       right: 0;
+       bottom: 0;
+    }
+    .homepage video{ 
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    } 
+    .homepage .navcontant{
+        justify-content: right;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+    }
+    .homepage nav a{
+        color: white;
+    }
+    .homepage .navbarlogo{
+        font-size: 55px;
+        color: rgba(128, 128, 128, 0.26);
+    }
+    .homepage .navbar button{
+        background-color: rgba(90, 91, 145, 0.37);
+    }
+    .addpage h1{
+        color: rgba(36, 36, 163, 0.459);
+        font-size: 90px;
+        position: absolute;
+        top: 60%;
+        left: 27%;
+    }
+    /* end page */
+    /*about us */
+    .aboutus{
+        width: 100%;
+        height: 70%;
+        background-image: url("../img/Join-US-BG-1.jpg");
+        position: relative;
+        top: 0;
+        bottom: 0;
+    }
+    .paragraph1{
+        width: 37%;
+        height: 60%;
+        position: absolute;
+        top: 23%;
+        left: 5%;
+    }
+    .paragraph1  h2{
+        color: rgba(44, 44, 182, 0.945);
+          font-size: 33px;
+            }
+     .paragraph1  p{
+          color: white;
+          font-size: 25px;
+        }
+    .contant .firstvideo iframe{
+        width: 40%;
+        height: 60%;
+        position: absolute;
+        top: 8%;
+        left: 49%;
+    }
+    .item1{
+        width:25%;
+        border-radius:  3px;
+        position: absolute;
+        top: 85%;
+        left: 8%;
+    }
+    .item2{
+        width:25%;
+        border-radius:  3px;
+        position: absolute;
+        top: 85%;
+      left: 39%;
+    }
+    .item3{
+        width:25%; 
+        position: absolute;
+        top: 85%;
+        left: 70%;
+    }
+    .inner{
+        text-align: center;
+    }
+    .img-box {
+        overflow: hidden;
+        transform: skew(-15deg);
+    }
+    .layer{
+        background-color: rgba(45, 45, 158, 0.342);
+        position:absolute;
+          top: 0px;
+          bottom: 0px;
+          right: 0px;
+          left: 0;
+          transform: translatex(353px);
+          transition-property: all;
+          transition-duration:.3s;
+          opacity: 0;
+          overflow: hidden;
+    }
+    .img-box:hover .layer{
+        transform: translatex(0px);
+        opacity: 1;
+        cursor: pointer;
+        color: rgba(0, 50, 70, 0.849);
+    }
+    .layer .notes{
+        position: absolute;
+        top: 22%;
+       left: 5%;
+    }  
+    .layer .notes h2{
+        font-size: 32px;
+        color: white;
+    }
+    .layer .notes p{
+        font-size: 22px;
+        color: white;
+    }
+      /* end seccion */
+     
+      /* part3 */
+    .ourclass{
+    background-image: url("../img/OUR-CLASSES-BG.jpg");
+    position: relative;
+    top:35%;
+    }
+    .imgbox2{
+             width: 100%;
+             height:  80%;
+    }  
+    .ourclass h2{
+          font-size: 70px;
+          color: rgba(45, 45, 204, 0.973);
+          text-align: center;
+    }
+    .ourclass p{
+          color: gray;
+          width: 60%;
+          font-size: 20px;
+          text-align: center;
+          position: absolute;
+          left: 20%;
+    }
+    .ourclass .box1 img{
+          width: 27%;
+          height: 60%;
+          position: absolute;
+          top: 30%;
+          left: 2%;
+          transition:transform 0.5s 0.5s ;
+    }
+    .box1:hover img{
+        transform: scale(1.2,1.2);
+        cursor: pointer;
+    }
+    .ourclass .box1 h3{
+          font-size: 27px;
+        position: absolute;
+        top: 96%;
+        left: 9%;
+     }
+    .ourclass .box2 img{
+        width: 27%;
+        height: 60%;
+        position: absolute;
+        top: 30%;
+        left: 35%;
+        transition:transform 0.5s 0.5s ;
+    }
+    .box2:hover img{
+        transform: scale(1.2,1.2);
+        cursor: pointer;
+    }
+    .ourclass .box2 h3{
+        font-size: 27px;
+        position: absolute;
+        top: 96%;
+        left: 45%;
+    }
+    .ourclass .box3 img{
+        width: 27%;
+        height: 60%;
+        position: absolute;
+        top: 30%;
+        left: 68%;
+        transition:transform 0.5s 0.5s ;
+    }
+    .box3:hover img{
+        transform: scale(1.2,1.2);
+        cursor: pointer;
+    }
+    .ourclass .box3 h3{
+        font-size: 27px;
+        position: absolute;
+        top: 96%;
+        left: 73%;
+      }
+      /* end part */
+     
+    /* part4*/
+    .classoverall{
+        background-image: url("../img/MISSION-00.jpg");
+        width: 100%;
+        height: 100%;
+        background-position: center center;
+        position: relative;
+        top: 50%;
+        bottom: 0;
+    }
+    .addpg5 h2{
+        color: white;
+        width: 100%;
+        height: 10%;
+        text-align: center;
+        font-size: 50px;
+    }
+    .addpg5 hr{
+        width: 6%;
+        height: 1%;
+        transform: skew(-15deg);
+        background-color: darkblue;
+        position: absolute;
+        left: 47%;
+        top: 7%;
+    }
+    .imgoverall img{
+        width: 28%;
+        height: 80%;
+        position: absolute;
+        left: 57%;
+        top: 16%;
+    }
+   .imgcard1 img{
+     width: 5%;
+     height: 8%;
+     position: absolute;
+     left: 2%;
+     top: 25%;
+   }
+   .captioncard1 h2{
+    font-size: 28px;
+    color: rgba(44, 44, 182, 0.945);
+    position: absolute;
+    left: 8%;
+    top: 22%;
+   }
+   .captioncard1 p{
+    font-size: 15px;
+    width: 30%;
+    color: white;
+    position: absolute;
+    left: 8%;
+    top: 28%;
+   }
+   .imgcard2 img{
+    width: 5%;
+    height: 8%;
+    position: absolute;
+     left: 2%;
+     top: 52%;
+  }
+  .captioncard2 h2{
+    font-size: 28px;
+    color: rgba(44, 44, 182, 0.945);
+    position: absolute;
+    left: 8%;
+    top: 50%;
+   }
+   .captioncard2 p{
+    font-size: 15px;
+    width: 30%;
+    color: white;
+    position: absolute;
+    left: 8%;
+    top: 56%;
+   }
+  .imgcard3 img{
+    width: 5%;
+    height: 8%;
+    position: absolute;
+     left: 2%;
+     top: 78%;
+  }
+  .captioncard3 h2{
+    font-size: 28px;
+    color: rgba(44, 44, 182, 0.945);
+    position: absolute;
+    left: 8%;
+    top:76% ;
+   }
+   .captioncard3 p{
+    font-size: 15px;
+    width: 30%;
+    color: white;
+    position: absolute;
+    left: 8%;
+    top: 82%;
+   }
+   /* end page */
+  
+   /* part5 */
+   .ourteam{
+       width: 95%;
+       height: 45%;
+       position: relative;
+       top: 52.5%;
+       bottom: 0;
+   }
+   .addpage5 h2{
+       font-size: 60px;
+       color: rgba(44, 44, 182, 0.945);
+       position: absolute;
+       left: 10%;
+       top: 35%;
+   }
+   .addpage5 hr{
+    width: 6%;
+    height: 1%;
+    background-color: black;
+    transform: skew(15deg);
+    position: absolute;
+    left: 17%;
+    top:52%;
+   }
+   .cappage5 {
+       width: 40%;
+       font-size: 20px;
+       position: absolute;
+       top:28% ;
+       left: 50%;
+   }
+   .addpage5 p{
+       color: black;
+   }
+   /* end page5 */
+   /* page6 */
+   .timetable{
+      background-image: url("../img/schedule-bg.png");
+       width: 100%;
+       height: 65%;
+       position: relative;
+       top: 50%;
+   }
+   .timetable video{ 
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+   }
+   .timetable table{
+       width: 50%;
+       height: 50%;
+       font-size: 20px;
+       text-align: center;
+       position: absolute;
+       top: 30%;
+       left: 25%;
+   }
+   .timetable h2{
+       font-size: 55px;
+       color: white;
+       position:absolute;
+       top: 5%;
+       left: 35%;
+       
+   }
+   .timetable hr{
+       width: 10%;
+       height: 1%;
+       transform: skew(-20deg);
+       background-color: blue;
+       position: absolute;
+       top:17% ;
+       left:43%;
+   }
+   .timetable button{
+       width: 10%;
+       height: 8%;
+       color: white;
+       font-size: 20px;
+      border: none;
+      background-color: transparent;
+       position: absolute;
+       top: 90%;
+       left:45% ;
+   }
+   /* endpart */
+   /* part7 */
+   .finallybox{
+    background-image: url("../img/About-GLY-BG.jpg");
+    background-size: cover;
+    background-position: center center;
+       width: 100%;
+       height: 100%;
+       position: relative;
+       top: 50%;
+   }
+    .boximg1 img{
+      width: 20%;
+      height: 40%;
+      position: absolute;
+      top: 2%;
+   }
+   .boximg2 img{
+    width: 20%;
+    height:40%;
+    position: absolute;
+    top: 2%;
+    left: 20%;
+   }
+   .boximg3 img{
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    top: 2%;
+    left: 40%;
+   
+   }
+   .boximg4 img{
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    top: 2%;
+    left: 60%;
+   }
+   .boximg5 img{
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    top: 2%;
+    left: 80%;
+   } 
+   .finallypg{
+       
+       width: 98%;
+       height: 50%;
+       position: relative;
+       top: 46%;
+       left:2%;
+    }
+   .finallypg img{
+       width: 24%;
+       height: 37%;
+       position: relative;
+       top: 35%;
+    } 
+
+}

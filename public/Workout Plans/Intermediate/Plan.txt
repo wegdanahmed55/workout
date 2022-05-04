@@ -1,0 +1,6 @@
+Saturday : Chest 
+Sunday : Back 
+Monday : Shoulder 
+Tuesday : Rest
+Wednesday : Arms 
+Thursday : Legs 

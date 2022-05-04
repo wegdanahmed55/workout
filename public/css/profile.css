@@ -1,0 +1,129 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.profilepage{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.profilepage img{
+    border-radius: 50%;
+    background-color: blue;
+    width: 17.5%;
+    height: 33%;
+    position: absolute;
+    top: 2.5%;
+    left: 5%;
+}
+.profilepage h2{
+    color: rgb(2, 2, 124);
+    font-size: 50px;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+}
+.profilepage hr{
+    width: 100%;
+    background-color: brown;
+    position: absolute;
+    top: 34%;
+    left: 0;
+}
+.profilepage .box{
+    width: 60%;
+    height: 62%;
+    position: relative;
+    top: 37%;
+}
+.box .box1{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height:15% ;
+    transform: skew(-15deg);
+}
+.box1 p{
+    font-size: 30px;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+.box1 button{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 5%;
+    top: 40%;
+}
+.box .box2{
+    position: absolute;
+    top: 33%;
+    left: 10%;
+    width: 80%;
+    height:15%;
+    transform: skew(-15deg);
+}
+.box2 p{
+    font-size: 30px;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+.box2 button{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 5%;
+    top: 40%;
+}
+.box .box3{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    width: 80%;
+    height:15% ;
+    transform: skew(-15deg);
+}
+.box3 p{
+    font-size: 30px;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+.box3 button{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 5%;
+    top: 40%;
+}
+.box .box4{
+    position: absolute;
+    top: 78%;
+    left: 10%;
+    width: 80%;
+    height:15% ;
+    transform: skew(-15deg);
+}
+.box4 p{
+    font-size: 30px;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+.box1 button{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 5%;
+    top: 40%;
+}
+.box4 button{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 5%;
+    top: 40%;
+}

@@ -1,0 +1,120 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+/* Large devices (laptops/desktops, 1024px and up) */ 
+@media only screen and (min-width: 1024px) {}
+/*  large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (min-width: 1440px) {}
+.level1{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/Join-US-BG-1.jpg");
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.level1 h2{
+    font-size: 55px;
+    text-align: center;
+    color: white;
+}
+.level1 hr{
+    width:6%;
+    height: 1%;
+    transform: skew(-15deg);
+    background-color: rgb(12, 12, 167);
+    position: absolute;
+    left: 46.5%;
+    top: 7%;
+}
+.level1 .chestl1{
+    width: 35%;
+    height: 26.5%;
+    background-image: url("../img/chest.jpg");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 2rem;
+    position: absolute;
+    top: 11%;
+    left: 10%;
+}
+.chestl1 a{
+    position: relative;
+    top: 40%;
+    left: 25%;
+}
+.level1 .absl1{
+    width: 35%;
+    height: 26.5%;
+    background-image: url("../img/abs_beginner.jpg");
+    background-size: cover;
+    border-radius: 2rem;
+    background-position: center center;
+    position: absolute;
+    top: 11%;
+    right: 10%;
+}
+.absl1 a{
+    position: relative;
+    top: 40%;
+    left: 30%;
+}
+.level1 .arml1{
+    width: 35%;
+    height: 26.5%;
+    background-image: url("../img/arm.jpg");
+    background-size: cover;
+    border-radius: 2rem;
+    background-position: center center;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+.arml1 a{
+    position: relative;
+    top: 40%;
+    left: 27%;
+}
+.level1 .legl1{
+    width: 35%;
+    height: 26.5%;
+    background-image: url("../img/leg.jpg");
+    background-size: cover;
+    border-radius: 2rem;
+    background-position: center center;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+.legl1 a{
+    position: relative;
+    top: 40%;
+    left: 30%;
+}
+.level1 .Shoulderl1{
+    width: 50%;
+    height: 30%;
+    background-image: url("../img/shoulders&back_beginner.jpg");
+    background-size: cover;
+    border-radius: 2rem;
+    background-position: center center;
+    position: absolute;
+    top: 67.5%;
+    left: 25%;
+}
+.Shoulderl1 a{
+    position: relative;
+    top: 40%;
+    left: 25%;
+}
+.level1 a{
+    border: none;
+    border-radius: 2rem;
+    color:rgb(56, 56, 181);
+    font-size: 25px;
+}
+

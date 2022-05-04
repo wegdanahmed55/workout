@@ -1,0 +1,716 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+      /* endpart1 */
+      .addpagelevel{
+        background-image: url("../img/image-from-rawpixel-id-2111610-jpeg.jpg");
+        background-position: 100% 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+       width: 100%;
+       height: 85%;
+       position: relative;
+       top: 0;
+    }
+    .layer{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(12, 12, 12, 0.753);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+    }
+    .layer h2{
+        font-size: 55px;
+        color: white;
+        position: absolute;
+        top: 48%;
+        left: 35%;
+    }
+    .layer p{
+        font-size: 20px;
+        color: rgb(18, 18, 161);
+        position: absolute;
+        top: 60%;
+        left: 43%;
+    }
+    .layer .navcontant{
+        justify-content: right;
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+    }
+    .layer nav a{
+        color: white;
+    }
+    .layer .navbarlogo{
+        font-size: 45px;
+        color: rgba(128, 128, 128, 0.26);
+    }
+    .layer .navbar button{
+        background-color: rgba(90, 91, 145, 0.37);
+    }
+    /* end part1 */
+    /* part2 */
+    .levelpart{
+        width: 90%;
+        height: 45%;
+        position: relative;
+        top: 5%;
+        left: 5%;
+        right: 5%;
+    }
+    .levelpart .box1{
+        width: 31%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 1%;
+    }
+    .box1 img {
+        width: 18%;
+        height: 23%;
+        position: absolute;
+        top: 3%;
+        left: 47%;
+    }
+    .box1 h3{
+        font-size: 28px;
+        position: absolute;
+        top: 29%;
+        left: 20%;
+    }
+    .box1 p{
+        font-size: 16px;
+        text-align: center;
+        position: absolute;
+        top: 40%;
+        left: 5%;
+    }
+    .box1 hr{
+        width: 20%;
+        height: 1%;
+        background-color: rgb(11, 72, 126);
+        transform: skew(-15deg);
+        font-size: 30px;
+        position: absolute;
+        top: 78%;
+        left: 42%;
+    }
+    .levelpart .box2{
+        width: 31%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 34.5%;
+    }
+    .box2 img { 
+        width: 18%;
+        height: 23%;
+        position: absolute;
+        top: 3%;
+        left: 47%;
+    }
+    .box2 h3{
+        font-size: 28px;
+        position: absolute;
+        top: 29%;
+        left: 20%;
+    }
+    .box2 p{
+        font-size: 16px;
+        text-align: center;
+        position: absolute;
+        top: 40%;
+        left: 5%;
+    }
+    .box2 hr{
+        width: 20%;
+        height: 1%;
+        background-color: rgb(11, 72, 126);
+        transform: skew(-15deg);
+        font-size: 30px;
+        position: absolute;
+        top: 78%;
+        left: 42%;
+    }
+    .levelpart .box3{
+        width: 31%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 1%;
+    }
+    .box3 img {
+        width: 18%;
+        height: 23%;
+        position: absolute;
+        top: 3%;
+        left: 47%;
+    }
+    .box3 h3{
+        font-size: 28px;
+        position: absolute;
+        top: 29%;
+        left: 20%;
+    }
+    .box3 p{
+        font-size: 16px;
+        text-align: center;
+        position: absolute;
+        top: 40%;
+        left: 5%;
+    }
+    .box3 hr{
+        width: 20%;
+        height: 1%;
+        background-color: rgb(11, 72, 126);
+        transform: skew(-15deg);
+        font-size: 30px;
+        position: absolute;
+        top: 78%;
+        left: 42%;
+    }
+    /* endpart2 */
+
+    /* part3 */
+    .chooselevel{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 0%;
+        bottom: 0;
+    }
+    .chooselevel h2{
+        font-size: 55px;
+        color: rgb(25, 25, 129);
+        text-align: center;
+    }
+    .chooselevel .bt1{
+        background-image: url("../img/photo-1550259979-ed79b48d2a30.jfif");
+        color: white;
+        font-size: 33px;
+        position: absolute;
+        left: 2%;
+        top: 17%;
+    }
+    .chooselevel .bt2{
+        background-image: url("../img/photo-1599058917765-a780eda07a3e.jfif");
+        background-size: cover;
+        color: white;
+        font-size: 33px;
+        position: absolute;
+        right: 35%;
+        top: 17%;
+      
+    }
+    .chooselevel .bt3{
+        background-image: url("../img/photo-1595078475328-1ab05d0a6a0e.jfif");
+        background-size: cover;
+        color: white;
+        font-size: 33px;
+        position: absolute;
+        right: 2%;
+        top: 17%;
+    }
+    .chooselevel button{
+        width: 29.5%;
+        height: 80%;
+        border: none;
+    }
+    .chooselevel hr{
+        width: 10%;
+        height: 1%;
+        background-color: black;
+        transform: skew(-15deg);
+    }
+    /* end part3 */
+}
+/* Large devices (laptops/desktops, 1024px and up) */ 
+@media only screen and (min-width: 1024px) {
+     /* endpart1 */
+     .addpagelevel{
+        background-image: url("../img/image-from-rawpixel-id-2111610-jpeg.jpg");
+        background-position: 100% 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+       width: 100%;
+       height: 85%;
+       position: relative;
+       top: 0;
+    }
+    .layer{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(12, 12, 12, 0.753);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+    }
+    .layer h2{
+        font-size: 50px;
+        color: white;
+        position: absolute;
+        top: 48%;
+        left: 35%;
+    }
+    .layer p{
+        font-size: 17px;
+        color: rgb(18, 18, 161);
+        position: absolute;
+        top: 60%;
+        left: 43%;
+    }
+    .layer .navcontant{
+        justify-content: right;
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+    }
+    .layer nav a{
+        color: white;
+    }
+    .layer .navbarlogo{
+        font-size: 45px;
+        color: rgba(128, 128, 128, 0.26);
+    }
+    .layer .navbar button{
+        background-color: rgba(90, 91, 145, 0.37);
+    }
+    /* end part1 */
+    /* part2 */
+    .levelpart{
+        width: 90%;
+        height: 45%;
+        position: relative;
+        top: 5%;
+        left: 5%;
+        right: 5%;
+    }
+    .levelpart .box1{
+        width: 31%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 1%;
+    }
+    .box1 img {
+        width: 20%;
+        height: 24%;
+        position: absolute;
+        top: 3%;
+        left: 47%;
+    }
+    .box1 h3{
+        font-size: 30px;
+        position: absolute;
+        top: 29%;
+        left: 20%;
+    }
+    .box1 p{
+        font-size: 15px;
+        text-align: center;
+        position: absolute;
+        top: 43%;
+        left: 5%;
+    }
+    .box1 hr{
+        width: 20%;
+        height: 1%;
+        background-color: rgb(11, 72, 126);
+        transform: skew(-15deg);
+        font-size: 30px;
+        position: absolute;
+        top: 80%;
+        left: 42%;
+    }
+    .levelpart .box2{
+        width: 31%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 34.5%;
+    }
+    .box2 img {
+        width: 20%;
+        height: 23%;
+        position: absolute;
+        top: 3%;
+        left: 47%;
+    }
+    .box2 h3{
+        font-size: 30px;
+        position: absolute;
+        top: 29%;
+        left: 20%;
+    }
+    .box2 p{
+        font-size: 15px;
+        text-align: center;
+        position: absolute;
+        top: 43%;
+        left: 5%;
+    }
+    .box2 hr{
+        width: 20%;
+        height: 1%;
+        background-color: rgb(11, 72, 126);
+        transform: skew(-15deg);
+        font-size: 30px;
+        position: absolute;
+        top: 80%;
+        left: 42%;
+    }
+    .levelpart .box3{
+        width: 31%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 1%;
+    }
+    .box3 img {
+        width: 20%;
+        height: 23%;
+        position: absolute;
+        top: 3%;
+        left: 47%;
+    }
+    .box3 h3{
+        font-size: 30px;
+        position: absolute;
+        top: 29%;
+        left: 20%;
+    }
+    .box3 p{
+        font-size: 15px;
+        text-align: center;
+        position: absolute;
+        top: 43%;
+        left: 5%;
+    }
+    .box3 hr{
+        width: 20%;
+        height: 1%;
+        background-color: rgb(11, 72, 126);
+        transform: skew(-15deg);
+        font-size: 30px;
+        position: absolute;
+        top: 80%;
+        left: 42%;
+    }
+    /* endpart2 */
+
+    /* part3 */
+    .chooselevel{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 0%;
+        bottom: 0;
+    }
+    .chooselevel h2{
+        font-size: 50px;
+        color: rgb(25, 25, 129);
+        text-align: center;
+    }
+    .chooselevel .bt1{
+        background-image: url("../img/photo-1550259979-ed79b48d2a30.jfif");
+        background-size: cover;
+        color: white;
+        font-size: 33px;
+        position: absolute;
+        left: 5%;
+        top: 17%;
+    }
+    .chooselevel .bt2{
+        background-image: url("../img/photo-1599058917765-a780eda07a3e.jfif");
+        background-size: cover;
+        color: white;
+        font-size: 33px;
+        position: absolute;
+        right: 36%;
+        top: 17%;
+      
+    }
+    .chooselevel .bt3{
+        background-image: url("../img/photo-1595078475328-1ab05d0a6a0e.jfif");
+        background-size: cover;
+        color: white;
+        font-size: 33px;
+        position: absolute;
+        right: 5%;
+        top: 17%;
+    }
+    .chooselevel button{
+        width: 28%;
+        height: 80%;
+        border: none;
+    }
+    .chooselevel hr{
+        width: 10%;
+        height: 1%;
+        background-color: black;
+        transform: skew(-15deg);
+    }
+    /* end part3 */
+}
+/*  large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (min-width: 1440px) {
+
+    /* endpart1 */
+    .addpagelevel{
+        background-image: url("../img/image-from-rawpixel-id-2111610-jpeg.jpg");
+        background-position: 100% 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+       width: 100%;
+       height: 85%;
+       position: relative;
+       top: 0;
+    }
+    .layer{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(12, 12, 12, 0.753);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+    }
+    .layer h2{
+        font-size: 65px;
+        color: white;
+        position: absolute;
+        top: 48%;
+        left: 35%;
+    }
+    .layer p{
+        font-size: 20px;
+        color: rgb(18, 18, 161);
+        position: absolute;
+        top: 60%;
+        left: 43%;
+    }
+    .layer .navcontant{
+        justify-content: right;
+        font-size: 25px;
+        color: white;
+        cursor: pointer;
+    }
+    .layer nav a{
+        color: white;
+    }
+    .layer .navbarlogo{
+        font-size: 45px;
+        color: rgba(128, 128, 128, 0.26);
+    }
+    .layer .navbar button{
+        background-color: rgba(90, 91, 145, 0.37);
+    }
+    /* end part1 */
+    /* part2 */
+    .levelpart{
+        width: 90%;
+        height: 45%;
+        position: relative;
+        top: 5%;
+        left: 5%;
+        right: 5%;
+    }
+    .levelpart .box1{
+        width: 31%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 1%;
+    }
+    .box1 img {
+        width: 25%;
+        height: 25%;
+        position: absolute;
+        top: 3%;
+        left: 37.5%;
+    }
+    .box1 h3{
+        font-size: 35px;
+        position: absolute;
+        top: 30%;
+        left: 20%;
+    }
+    .box1 p{
+        font-size: 17px;
+        text-align: center;
+        position: absolute;
+        top: 44%;
+        left: 5%;
+    }
+    .box1 hr{
+        width: 20%;
+        height: 1%;
+        background-color: rgb(11, 72, 126);
+        transform: skew(-15deg);
+        font-size: 30px;
+        position: absolute;
+        top: 75%;
+        left: 40%;
+    }
+    .levelpart .box2{
+        width: 31%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 34.5%;
+    }
+    .box2 img {
+        width: 25%;
+        height: 25%;
+        position: absolute;
+        top: 3%;
+        left: 37.5%;
+    }
+    .box2 h3{
+        font-size: 35px;
+        position: absolute;
+        top: 30%;
+        left: 20%;
+    }
+    .box2 p{
+        font-size: 17px;
+        text-align: center;
+        position: absolute;
+        top: 44%;
+        left: 5%;
+    }
+    .box2 hr{
+        width: 20%;
+        height: 1%;
+        background-color: rgb(11, 72, 126);
+        transform: skew(-15deg);
+        font-size: 30px;
+        position: absolute;
+        top: 75%;
+        left: 40%;
+    }
+    .levelpart .box3{
+        width: 31%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 1%;
+    }
+    .box3 img {
+        width: 25%;
+        height: 25%;
+        position: absolute;
+        top: 3%;
+        left: 37.5%;
+    }
+    .box3 h3{
+        font-size: 35px;
+        position: absolute;
+        top: 30%;
+        left: 25%;
+    }
+    .box3 p{
+        font-size: 17px;
+        text-align: center;
+        position: absolute;
+        top: 45%;
+        left: 5%;
+    }
+    .box3 hr{
+        width: 20%;
+        height: 1%;
+        background-color: rgb(11, 72, 126);
+        transform: skew(-15deg);
+        font-size: 30px;
+        position: absolute;
+        top: 75%;
+        left: 40%;
+    }
+    /* endpart2 */
+
+    /* part3 */
+    .chooselevel{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 0%;
+        bottom: 0;
+    }
+    .chooselevel h2{
+        font-size: 60px;
+        color: rgb(25, 25, 129);
+        text-align: center;
+    }
+    .chooselevel .bt1{
+        width: 25%;
+        height: 83%;
+        background-image: url("../img/photo-1550259979-ed79b48d2a30.jfif");
+        background-size: cover;
+        border-radius: 1%;
+        
+    }
+    .bt1 a{
+        color: white;
+        font-size: 40px;
+        border-radius: 1%;
+        position:absolute;
+        top: 43%;
+        left: 20%;
+    }
+   
+    
+    .chooselevel .bt2{
+        width: 25%;
+        height: 83%;
+        background-image: url("../img/photo-1599058917765-a780eda07a3e.jfif");
+        background-size: cover;
+        color: white;
+        position: absolute;
+        right: 37.5%;
+        top: 17%;
+        border-radius: 1%;
+      
+    }
+    .bt2 a{
+        color: white;
+        font-size: 40px;
+        position:absolute;
+        top: 43%;
+        left: 8%;
+    }
+    .chooselevel .bt3{
+        width: 25%;
+        height: 83%;
+        background-image: url("../img/photo-1595078475328-1ab05d0a6a0e.jfif");
+        background-size: cover;
+        color: white;
+        position: absolute;
+        right: 8%;
+        top: 17%;
+        border-radius: 1%;
+    }
+    .bt3 a{
+        color: white;
+        font-size: 40px;
+        position:absolute;
+        top: 43%;
+        left: 18%;
+    }
+    
+    .chooselevel hr{
+        width: 10%;
+        height: 1%;
+        background-color: black;
+        transform: skew(-15deg);
+        position: absolute;
+        top: 10%;
+        left: 45%;
+    }
+    
+    /* end part3 */
+}
+
